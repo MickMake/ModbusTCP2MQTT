@@ -9,7 +9,7 @@ ARG BUILD_ARCH
 COPY models/ /
 COPY requirements.txt /tmp/
 COPY run.sh /
-COPY ModbusTCP.py /
+COPY ModbusWeb.py /
 
 # Install requirements for add-on
 RUN apk add --no-cache python3-dev py3-pip g++
