@@ -20,7 +20,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 
-from SungrowModbusTcpClient import SungrowModbusTcpClient
+from SungrowModbusWebClient import SungrowModbusWebClient
 from pymodbus.payload import BinaryPayloadDecoder
 from pymodbus.client.sync import ModbusTcpClient
 from pymodbus.constants import Endian
