@@ -124,8 +124,8 @@ client_payload = {
 }
 
 if "sungrow-" in options['model']:
-    logging.info(f"Create SungrowModbusTcpClient. Model: {options['model']}")
-    client = SungrowModbusTcpClient.SungrowModbusTcpClient(**client_payload)
+    logging.info(f"Create SungrowModbusWebClient. Model: {options['model']}")
+    client = SungrowModbusWebClient.SungrowModbusWebClient(**client_payload)
 else:
     logging.info(f"Create ModbusTcpClient. Model: {options['model']}")
     client = ModbusTcpClient(**client_payload)
