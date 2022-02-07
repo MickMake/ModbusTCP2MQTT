@@ -135,7 +135,7 @@ client.close()
 logging.info("Modbus connected")
 
 # Configure MQTT
-mqtt_client = mqtt.Client("ModbusTCP")
+mqtt_client = mqtt.Client("ModbusWeb")
 mqtt_client.username_pw_set(options['mqtt_user'], options['mqtt_pass'])
 if options['mqtt_port'] == 8883:
     mqtt_client.tls_set()
