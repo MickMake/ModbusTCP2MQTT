@@ -19,7 +19,7 @@ RUN chmod a+x /run.sh
 CMD ["/run.sh"]
 
 LABEL \ 
-    io.hass.name="ModbusTCP2MQTT" \
+    io.hass.name="ModbusWeb2MQTT" \
     io.hass.description="Sungrow-SMA Solar inverter communication Addon" \
     io.hass.version=${BUILD_VERSION} \
     io.hass.type="addon" \
